@@ -1,15 +1,17 @@
-body{
-text-align:center;
+body {
+    text-align: center;
 }
-.profile{
-        width: 175px;
+
+.profile {
+    width: 175px;
     height: 200px;
     margin-bottom: 50px;
     border-radius: 50%;
-    
+
 }
-#welcome{
-        position: absolute;
+
+#welcome {
+    position: absolute;
     overflow: hidden;
     height: 800px;
     color: black;
@@ -18,12 +20,13 @@ text-align:center;
     top: 0;
     bottom: 0;
     opacity: 0.83;
-    background-color: aqua;
+    background: linear-gradient(#6d30b8 0%, #b0fffc 100%);
     display: table;
     width: 100%;
     height: 100%;
     z-index: 9;
 }
+
 .Menu {
     list-style: none;
     font-family: cursive;
@@ -33,4 +36,17 @@ text-align:center;
     z-index: 10;
     cursor: pointer;
     color: black;
+}
+
+.list:hover {
+    background-color: snow;
+}
+
+.list {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
 }
